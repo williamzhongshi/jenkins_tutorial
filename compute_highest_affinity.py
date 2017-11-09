@@ -65,8 +65,7 @@ def highest_affinity(site_list, user_list, time_list):
 
     def helloworld():
         print ("hello world")
-        print("hello world")
-        print("hello world")
+       
         page_dict = {}
         pair_dict = {}
         for i in range(0, len(site_list)):
