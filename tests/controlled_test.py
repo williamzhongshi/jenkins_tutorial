@@ -1,6 +1,7 @@
-import compute_highest_affinity as compute_highest_affinity
+# import compute_highest_affinity as compute_highest_affinity
 import pdb, unittest
-
+import compute_highest_affinity
+# from compute_highest_affinity import *
 class ControlledTests(unittest.TestCase):
 
     def test1(self):
@@ -11,5 +12,6 @@ class ControlledTests(unittest.TestCase):
 
         computed_result = compute_highest_affinity.highest_affinity(site_list, user_list, time_list)
         expected_result = ("a.com", "b.com")
+        # expected_result = ("c.com", "b.com")
 
         assert computed_result == expected_result
